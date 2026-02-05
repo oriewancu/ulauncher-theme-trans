@@ -1,0 +1,59 @@
+.app {
+    margin: 25px;
+    background-color: rgba(30, 30, 30, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 18px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), 
+                0 10px 20px rgba(0, 0, 0, 0.3),
+                0 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+.input {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 10px; 
+}
+
+.selected.item-box {
+    background-color: #007AFF;
+    border-radius: 12px;
+    margin: 4px 8px; 
+}
+
+.selected.item-box .item-name,
+.selected.item-box .item-text,
+.selected.item-box .item-shortcut,
+.selected.item-box b,
+.selected.item-box span {
+    color: #ffffff;
+}
+
+.item-name {
+    color: #eeeeee;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.item-text {
+    color: #bbbbbb;
+    margin-left: 10px;
+}
+
+.item-shortcut {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.no-window-shadow {
+    margin: 40px;
+}
+
+.prefs-btn {
+  border-radius: 12px;
+  opacity: 1;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.prefs-btn:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
